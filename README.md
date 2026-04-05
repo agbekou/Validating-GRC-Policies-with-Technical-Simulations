@@ -29,9 +29,12 @@ To technically validate **NIST 800-53 Control AC-7 (Unsuccessful Logon Attempts)
 6.  **Evidence Mapping:**
     Used the **Incident Graph** to visualize the attack path, confirming the connection between the target user account, the host machine, and the manipulated process.
 
- ![Azure_Brute Force_PowerShell](https://github.com/user-attachments/assets/dcc5612e-4c68-403e-b448-a5db408b10a9)
-
- ![Azure_Brute Force_PowerShell_2](https://github.com/user-attachments/assets/9c61a7a7-d46a-4fcf-b697-b0588b86a34c)
  
 ### **Security Takeaway**
 **Policies are hypotheses; simulations are the proof.** A policy like AC-7 is only effective if the underlying technology (EDR/SIEM) is tuned to see the violation. By conducting this simulation, we move from "assuming" compliance to "proving" operational resilience. This ensures that when an actual audit or incident occurs, the Incident Response Plan (IRP) is a functional reality rather than a theoretical document.
+
+### Screenhorts showing the process
+
+ ![Azure_Brute Force_PowerShell](https://github.com/user-attachments/assets/dcc5612e-4c68-403e-b448-a5db408b10a9)
+
+ ![Azure_Brute Force_PowerShell_2](https://github.com/user-attachments/assets/9c61a7a7-d46a-4fcf-b697-b0588b86a34c)
